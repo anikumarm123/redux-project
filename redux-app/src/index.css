@@ -1,0 +1,34 @@
+.login{
+  text-align: center;
+  padding: 0px 10vh;
+}
+.loginBox{
+  margin: 15px auto;
+   border: 1px solid #808080;
+   width: 30vw;
+   height: 60vh;
+   text-align: center;
+}
+.loginBox svg{
+  padding-top: 4vh;
+   font-size: 8vh;
+   color:  #fb9d10;
+  
+}
+.loginBox p input{
+  width: 20vw;
+}
+.loginBox button{
+
+  width: 8vw;
+  height: 3vw;
+  background-color: #f8c239;
+  color: black;
+}
+.login img{
+  width: 25vw;
+}
+
+
+
+
