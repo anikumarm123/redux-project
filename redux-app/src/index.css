@@ -3,23 +3,28 @@
   padding: 0px 10vh;
 }
 .loginBox{
-  margin: 15px auto;
+  margin: 10px auto;
    border: 1px solid #808080;
    width: 30vw;
-   height: 60vh;
+   height: 65vh;
    text-align: center;
+
 }
 .loginBox svg{
   padding-top: 4vh;
    font-size: 8vh;
    color:  #fb9d10;
-  
 }
-.loginBox p input{
+.ip{
+  line-height: 13vh;
+}
+.loginBox #ip-1{
+  width: 20vw;
+}
+.loginBox #ip-2{
   width: 20vw;
 }
 .loginBox button{
-
   width: 8vw;
   height: 3vw;
   background-color: #f8c239;
@@ -28,7 +33,94 @@
 .login img{
   width: 25vw;
 }
+/* --------------------- NavBar section ----------------------------- */
+
+.nav-flx{
+  display: flex;
+  height: 18vh;
+  justify-content: space-around;
+  background-color:#1d1919;
+}
+.nav-right{
+  display: flex;
+}
+.nav-right button{
+  margin-top: 3vh;
+  width: 8vw;
+  height: 12vh;
+  color: white;
+  background-color: #1d1919;
+  border: 1px solid #1d1919;
+  
+}
+.nav-right span{
+  font-size: 15px;
+  font-weight: bolder;
+  color: #f8c239;
+}
+.nav-right button:hover{
+  border: 2px solid white;
+  color: #f8c239;
+}
+.nav-right i{
+  font-size: 3vw;
+}
+.nav-right img{
+  height: 18vh;
+  width: 17vw;
+}
+.nav-search{
+  padding-top: 8vh;
+}
+.nav-search input{
+     width: 35vw;
+     height: 6vh;
+     font-size: 20px;  
+     
+}
+.nav-search button{
+    border: 1px solid #f8c239;;
+    width: 5vw;
+     height: 7vh;
+     background-color:#f8c239;
+}
+.nav-search i{
+  font-size: 20px;
+}
+.nav-left{
+    padding-top: 4vh;
+}
+.nav-left i{
+  font-size: 2vw;
+}
+.nav-left button{
+  width: 6vw;
+  height: 12vh;
+  margin-left: 3vw;
+  color: white;
+  background-color: #1d1919;
+  border: 1px solid #1d1919;
+}
+.nav-left button:hover{
+  border: 2px solid white;
+  color: #f8c239;
+}
+/* ---------------------- Home Page----------------------------- */
+.cartFlx{
+  display: flex;
+  justify-content: space-between;
+}
+.cartIcon i{
+  font-size: 2.2vw;
+  color:#1d1919;
+}
+.productList{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  background-color:rgb(251, 247, 247) ;
+}
 
 
-
-
+/* ---------------------CartItem----------------------------- */
